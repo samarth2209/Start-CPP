@@ -12,7 +12,8 @@
 > Let us look at a simple code that would print the words Hello World.
 
 
-```#include <iostream>
+```
+#include <iostream>
 using namespace std;
 // main() is where program execution begins.
 int main() {
