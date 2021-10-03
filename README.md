@@ -10,19 +10,14 @@
 ## LEVEL 1:C++ Program Structure
 
 > Let us look at a simple code that would print the words Hello World.
-> 
+
+
 ```#include <iostream>
-
 using namespace std;
-
 // main() is where program execution begins.
-
 int main() {
-
 cout << "Hello World"; // prints Hello World
-
 return 0;
-
 } ```
   
 
