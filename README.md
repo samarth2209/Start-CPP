@@ -81,7 +81,8 @@ LEVEL 3: CONDITIONALS AND LOOPS:
 > −LOOPS:There may be a situation, when you need to execute a block of code several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.Programming languages provide various control structures that allow for more complicated execution paths.A loop statement allows us to execute a statement or group of statements multiple times and following is the general from of a loop statement in most of the programming languages −
 > 
 
-![BEGINEER%20TRACK%20FOR%20C++_FINAL%20ba940405cf2840c1898398af47ce9f38/image2.jpeg](BEGINEER%20TRACK%20FOR%20C++_FINAL%20ba940405cf2840c1898398af47ce9f38/image2.jpeg)
+![image](https://user-images.githubusercontent.com/81976330/135765791-5e845731-abfa-4017-9ce9-d9df99402d44.png)
+
 
 > C++ programming language provides the following type of loops to handle looping requirements.
 > 
