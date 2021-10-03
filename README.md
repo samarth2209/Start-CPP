@@ -44,9 +44,8 @@ TASK 1: Print Hello! Google Developers Club.
 ## Primitive Built-in Types
 
 > C++ offers the programmer a rich assortment of built-in as well as user defined data types. Following table lists down seven basic C++ data types −
-> 
+![image](https://user-images.githubusercontent.com/81976330/135765556-50d91a45-091a-44e7-a27f-6047a548a9a2.png)
 
-![image](https://user-images.githubusercontent.com/81976330/135765508-0e0d2c9a-3b9b-4091-8064-7a5e79c42e9c.png)
 
 
 > Several of the basic types can be modified using one or more of these type modifiers −
@@ -59,7 +58,9 @@ TASK 1: Print Hello! Google Developers Club.
 > The following table shows the variable type, how much memory it takes to store the value in memory, and what is maximum and minimum value which can be stored in such type of variables.
 > 
 
-[Untitled](https://www.notion.so/14e24107babe4b9a91d58d77afccd6f1)
+![image](https://user-images.githubusercontent.com/81976330/135765730-207aaee6-387f-4d41-8c32-75ab8048fe8c.png)
+
+
 
 TASK 2: Write a program to print correct memory size of any 5 data types(hint: use .size() function.)
 
