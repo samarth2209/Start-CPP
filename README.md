@@ -102,11 +102,13 @@ LEVEL 4: FUNCTIONS AND POINTERS:
 > The general form of a C++ function definition is as follows −
 > 
 
-return_type function_name( parameter list ) {
+```
+  return_type function_name( parameter list ) {
 
 body of the function
 
 }
+  ```
 
 > A C++ function definition consists of a function header and a function body. Here are all the parts of a function −
 > 
@@ -120,8 +122,7 @@ POINTERS:
 > C++ pointers are easy and fun to learn. Some C++ tasks are performed more easily with pointers, and other C++ tasks, such as dynamic memory allocation, cannot be performed without them.As you know every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator which denotes an address in memory. Consider the following which will print the address of the variables defined −
 > 
 
-[Live Demo](http://tpcg.io/fQ1InE)
-
+```
 #include <iostream>
 
 using namespace std;
@@ -143,7 +144,7 @@ cout << &var2 << endl;
 return 0;
 
 }
-
+```
 > When the above code is compiled and executed, it produces the following result −
 > 
 
@@ -182,7 +183,7 @@ LEVEL 4: CLASSES &OBJECTS :
 
 > When you define a class, you define a blueprint for a data type. This doesn't actually define any data, but it does define what the class name means, that is, what an object of the class will consist of and what operations can be performed on such an object.A class definition starts with the keyword class followed by the class name; and the class body, enclosed by a pair of curly braces. A class definition must be followed either by a semicolon or a list of declarations. For example, we defined the Box data type using the keyword class as follows −
 > 
-
+```
 class Box {
 
 public:
@@ -194,6 +195,7 @@ double breadth; // Breadth of a box
 double height; // Height of a box
 
 };
+  ```
 
 > The keyword public determines the access attributes of the members of the class that follows it. A public member can be accessed from outside the class anywhere within the scope of the class object. You can also specify the members of a class as private or protected which we will discuss in a sub-section.
 > 
@@ -202,10 +204,11 @@ double height; // Height of a box
 
 > A class provides the blueprints for objects, so basically an object is created from a class. We declare objects of a class with exactly the same sort of declaration that we declare variables of basic types. Following statements declare two objects of class Box −
 > 
-
+```
 Box Box1; // Declare Box1 of type Box
 
 Box Box2; // Declare Box2 of type Box
+ ```
 
 > Both of the objects Box1 and Box2 will have their own copy of data members.
 > 
@@ -215,7 +218,7 @@ Box Box2; // Declare Box2 of type Box
 > The public data members of objects of a class can be accessed using the direct member access operator (.). Let us try the following example to make the things clear −
 > 
 
-[Live Demo](http://tpcg.io/JeEWd6)
+```
 
 #include <iostream>
 
@@ -272,6 +275,7 @@ cout << "Volume of Box2 : " << volume <<endl;
 return 0;
 
 }
+  ```
 
 > When the above code is compiled and executed, it produces the following result −
 > 
@@ -361,7 +365,7 @@ More resources on: *[https://www.tutorialspoint.com/cplusplus/cpp_files_streams.
 **SOURCE CODE:**
 
 Through this project, we can learn a lot about input/output streams and the file management system of C++. Our program collects student details like name, roll number, marks in each subject, and calculates their grade. This is a simple console app. Note that we focus only on the correct inputs in this project, and you can enhance it to handle wrong inputs. Here is the source code:
-
+```
 #include<iostream>
 #include<fstream>
 #include<iomanip>
@@ -601,3 +605,4 @@ cout<<"\n\n\tRecord Deleted ..";
 cin.ignore();
 cin.get();
 }
+  ```
