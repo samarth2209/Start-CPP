@@ -87,8 +87,8 @@ LEVEL 3: CONDITIONALS AND LOOPS:
 
 > C++ programming language provides the following type of loops to handle looping requirements.
 > 
+![image](https://user-images.githubusercontent.com/81976330/135765940-40d066e3-afa4-4854-8405-8589f37dfb91.png)
 
-[Untitled](https://www.notion.so/ae5f7f9f04cb4a61a1444305597d4cbc)
 
 For syntax go through: [https://www.w3schools.com/cpp/cpp_for_loop.asp](https://www.w3schools.com/cpp/cpp_for_loop.asp)
 
