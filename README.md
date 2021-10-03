@@ -11,8 +11,7 @@
 
 > Let us look at a simple code that would print the words Hello World.
 > 
-
-#include <iostream>
+```#include <iostream>
 
 using namespace std;
 
@@ -24,7 +23,8 @@ cout << "Hello World"; // prints Hello World
 
 return 0;
 
-}
+} ```
+  
 
 > Let us look at the various parts of the above program −
 > 
