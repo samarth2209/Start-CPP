@@ -46,7 +46,8 @@ TASK 1: Print Hello! Google Developers Club.
 > C++ offers the programmer a rich assortment of built-in as well as user defined data types. Following table lists down seven basic C++ data types −
 > 
 
-[Untitled](https://www.notion.so/3fe8e5872ee0456eaba4ec6a2a49cc3a)
+![image](https://user-images.githubusercontent.com/81976330/135765508-0e0d2c9a-3b9b-4091-8064-7a5e79c42e9c.png)
+
 
 > Several of the basic types can be modified using one or more of these type modifiers −
 > 
