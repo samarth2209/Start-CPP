@@ -298,13 +298,20 @@ Volume of Box2 : 1560
 
 	Concept & Description
 1  	Class Member Functions:A member function of a class is a function that has its definition or its prototype within the class definition like any other variable.
+	
 2	Class Access Modifiers:A class member can be defined as public, private or protected. By default members would be assumed as private.
+	
 3	Constructor & Destructor:A class constructor is a special function in a class that is called when a new object of the class is created. A destructor is also a special function which is called when created object is deleted.
 4	Copy Constructor:The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously.
+	
 5	Friend Functions:A friend function is permitted full access to private and protected members of a class.
+	
 6	Inline Functions:With an inline function, the compiler tries to expand the code in the body of the function in place of a call to the function.
+	
 7	this Pointer:Every object has a special pointer this which points to the object itself.
+	
 8	Pointer to C++ Classes:A pointer to a class is done exactly the same way a pointer to a structure is. In fact a class is really just a structure with functions in it.
+	
 9	Static Members of a Class:Both data members and function members of a class can be declared as static.
 
 
