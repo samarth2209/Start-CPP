@@ -296,7 +296,17 @@ Volume of Box2 : 1560
 > So far, you have got very basic idea about C++ Classes and Objects. There are further interesting concepts related to C++ Classes and Objects which we will discuss in various sub-sections listed below −
 > 
 
-[Untitled](https://www.notion.so/a8c832d041e749c696e434397a991c03)
+	Concept & Description
+1  	Class Member Functions:A member function of a class is a function that has its definition or its prototype within the class definition like any other variable.
+2	Class Access Modifiers:A class member can be defined as public, private or protected. By default members would be assumed as private.
+3	Constructor & Destructor:A class constructor is a special function in a class that is called when a new object of the class is created. A destructor is also a special function which is called when created object is deleted.
+4	Copy Constructor:The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously.
+5	Friend Functions:A friend function is permitted full access to private and protected members of a class.
+6	Inline Functions:With an inline function, the compiler tries to expand the code in the body of the function in place of a call to the function.
+7	this Pointer:Every object has a special pointer this which points to the object itself.
+8	Pointer to C++ Classes:A pointer to a class is done exactly the same way a pointer to a structure is. In fact a class is really just a structure with functions in it.
+9	Static Members of a Class:Both data members and function members of a class can be declared as static.
+
 
 More resources on : [https://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm](https://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm)
 
@@ -309,7 +319,8 @@ LEVEL 6: FILE HANDELING
 > So far, we have been using the iostream standard library, which provides cin and cout methods for reading from standard input and writing to standard output respectively.This tutorial will teach you how to read and write from a file. This requires another standard C++ library called fstream, which defines three new data types −
 > 
 
-[Untitled](https://www.notion.so/45553bf3866c4487b974434f34259180)
+![image](https://user-images.githubusercontent.com/81976330/135795452-1f594adf-3a70-48b5-a7aa-de4d95952558.png)
+
 
 > To perform file processing in C++, header files <iostream> and <fstream> must be included in your C++ source file.
 > 
@@ -324,7 +335,8 @@ void open(const char *filename, ios::openmode mode);
 > Here, the first argument specifies the name and location of the file to be opened and the second argument of the open() member function defines the mode in which the file should be opened.
 > 
 
-[Untitled](https://www.notion.so/2b79bc32a4cf4c8891786b246fcd247e)
+![image](https://user-images.githubusercontent.com/81976330/135795513-9cc91df2-daa2-422f-b7cc-85db3e860f04.png)
+
 
 > You can combine two or more of these values by ORing them together. For example if you want to open a file in write mode and want to truncate it in case that already exists, following will be the syntax −
 > 
