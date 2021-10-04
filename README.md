@@ -10,21 +10,18 @@
 ## LEVEL 1:C++ Program Structure
 
 > Let us look at a simple code that would print the words Hello World.
-> 
 
+
+```
 #include <iostream>
-
 using namespace std;
-
 // main() is where program execution begins.
-
 int main() {
-
 cout << "Hello World"; // prints Hello World
-
 return 0;
-
 }
+```
+  
 
 > Let us look at the various parts of the above program −
 > 
@@ -47,9 +44,9 @@ TASK 1: Print Hello! Google Developers Club.
 ## Primitive Built-in Types
 
 > C++ offers the programmer a rich assortment of built-in as well as user defined data types. Following table lists down seven basic C++ data types −
-> 
+![image](https://user-images.githubusercontent.com/81976330/135765556-50d91a45-091a-44e7-a27f-6047a548a9a2.png)
 
-[Untitled](https://www.notion.so/3fe8e5872ee0456eaba4ec6a2a49cc3a)
+
 
 > Several of the basic types can be modified using one or more of these type modifiers −
 > 
@@ -61,7 +58,9 @@ TASK 1: Print Hello! Google Developers Club.
 > The following table shows the variable type, how much memory it takes to store the value in memory, and what is maximum and minimum value which can be stored in such type of variables.
 > 
 
-[Untitled](https://www.notion.so/14e24107babe4b9a91d58d77afccd6f1)
+![image](https://user-images.githubusercontent.com/81976330/135765730-207aaee6-387f-4d41-8c32-75ab8048fe8c.png)
+
+
 
 TASK 2: Write a program to print correct memory size of any 5 data types(hint: use .size() function.)
 
@@ -72,22 +71,24 @@ LEVEL 3: CONDITIONALS AND LOOPS:
 > Decision making structures require that the programmer specify one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.Following is the general form of a typical decision making structure found in most of the programming languages −
 > 
 
-![BEGINEER%20TRACK%20FOR%20C++_FINAL%20ba940405cf2840c1898398af47ce9f38/image1.jpeg](BEGINEER%20TRACK%20FOR%20C++_FINAL%20ba940405cf2840c1898398af47ce9f38/image1.jpeg)
+![image](https://user-images.githubusercontent.com/81976330/135765791-5e845731-abfa-4017-9ce9-d9df99402d44.png)
 
 > C++ programming language provides following types of decision making statements.
 > 
 
-[Untitled](https://www.notion.so/ca84e74c2d26413ea668f6141fd065ab)
+![image](https://user-images.githubusercontent.com/81976330/135765900-593650d6-5f8c-4348-85c1-323cadf23e6a.png)
+
 
 > −LOOPS:There may be a situation, when you need to execute a block of code several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.Programming languages provide various control structures that allow for more complicated execution paths.A loop statement allows us to execute a statement or group of statements multiple times and following is the general from of a loop statement in most of the programming languages −
 > 
 
-![BEGINEER%20TRACK%20FOR%20C++_FINAL%20ba940405cf2840c1898398af47ce9f38/image2.jpeg](BEGINEER%20TRACK%20FOR%20C++_FINAL%20ba940405cf2840c1898398af47ce9f38/image2.jpeg)
+
+
 
 > C++ programming language provides the following type of loops to handle looping requirements.
 > 
+![image](https://user-images.githubusercontent.com/81976330/135765940-40d066e3-afa4-4854-8405-8589f37dfb91.png)
 
-[Untitled](https://www.notion.so/ae5f7f9f04cb4a61a1444305597d4cbc)
 
 For syntax go through: [https://www.w3schools.com/cpp/cpp_for_loop.asp](https://www.w3schools.com/cpp/cpp_for_loop.asp)
 
@@ -105,11 +106,13 @@ LEVEL 4: FUNCTIONS AND POINTERS:
 > The general form of a C++ function definition is as follows −
 > 
 
-return_type function_name( parameter list ) {
+```
+  return_type function_name( parameter list ) {
 
 body of the function
 
 }
+  ```
 
 > A C++ function definition consists of a function header and a function body. Here are all the parts of a function −
 > 
@@ -123,8 +126,7 @@ POINTERS:
 > C++ pointers are easy and fun to learn. Some C++ tasks are performed more easily with pointers, and other C++ tasks, such as dynamic memory allocation, cannot be performed without them.As you know every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator which denotes an address in memory. Consider the following which will print the address of the variables defined −
 > 
 
-[Live Demo](http://tpcg.io/fQ1InE)
-
+```
 #include <iostream>
 
 using namespace std;
@@ -146,7 +148,7 @@ cout << &var2 << endl;
 return 0;
 
 }
-
+```
 > When the above code is compiled and executed, it produces the following result −
 > 
 
@@ -185,7 +187,7 @@ LEVEL 4: CLASSES &OBJECTS :
 
 > When you define a class, you define a blueprint for a data type. This doesn't actually define any data, but it does define what the class name means, that is, what an object of the class will consist of and what operations can be performed on such an object.A class definition starts with the keyword class followed by the class name; and the class body, enclosed by a pair of curly braces. A class definition must be followed either by a semicolon or a list of declarations. For example, we defined the Box data type using the keyword class as follows −
 > 
-
+```
 class Box {
 
 public:
@@ -197,6 +199,7 @@ double breadth; // Breadth of a box
 double height; // Height of a box
 
 };
+  ```
 
 > The keyword public determines the access attributes of the members of the class that follows it. A public member can be accessed from outside the class anywhere within the scope of the class object. You can also specify the members of a class as private or protected which we will discuss in a sub-section.
 > 
@@ -205,10 +208,11 @@ double height; // Height of a box
 
 > A class provides the blueprints for objects, so basically an object is created from a class. We declare objects of a class with exactly the same sort of declaration that we declare variables of basic types. Following statements declare two objects of class Box −
 > 
-
+```
 Box Box1; // Declare Box1 of type Box
 
 Box Box2; // Declare Box2 of type Box
+ ```
 
 > Both of the objects Box1 and Box2 will have their own copy of data members.
 > 
@@ -218,7 +222,7 @@ Box Box2; // Declare Box2 of type Box
 > The public data members of objects of a class can be accessed using the direct member access operator (.). Let us try the following example to make the things clear −
 > 
 
-[Live Demo](http://tpcg.io/JeEWd6)
+```
 
 #include <iostream>
 
@@ -275,6 +279,7 @@ cout << "Volume of Box2 : " << volume <<endl;
 return 0;
 
 }
+  ```
 
 > When the above code is compiled and executed, it produces the following result −
 > 
@@ -291,7 +296,24 @@ Volume of Box2 : 1560
 > So far, you have got very basic idea about C++ Classes and Objects. There are further interesting concepts related to C++ Classes and Objects which we will discuss in various sub-sections listed below −
 > 
 
-[Untitled](https://www.notion.so/a8c832d041e749c696e434397a991c03)
+	Concept & Description
+1  	Class Member Functions:A member function of a class is a function that has its definition or its prototype within the class definition like any other variable.
+	
+2	Class Access Modifiers:A class member can be defined as public, private or protected. By default members would be assumed as private.
+	
+3	Constructor & Destructor:A class constructor is a special function in a class that is called when a new object of the class is created. A destructor is also a special function which is called when created object is deleted.
+4	Copy Constructor:The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously.
+	
+5	Friend Functions:A friend function is permitted full access to private and protected members of a class.
+	
+6	Inline Functions:With an inline function, the compiler tries to expand the code in the body of the function in place of a call to the function.
+	
+7	this Pointer:Every object has a special pointer this which points to the object itself.
+	
+8	Pointer to C++ Classes:A pointer to a class is done exactly the same way a pointer to a structure is. In fact a class is really just a structure with functions in it.
+	
+9	Static Members of a Class:Both data members and function members of a class can be declared as static.
+
 
 More resources on : [https://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm](https://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm)
 
@@ -304,7 +326,8 @@ LEVEL 6: FILE HANDELING
 > So far, we have been using the iostream standard library, which provides cin and cout methods for reading from standard input and writing to standard output respectively.This tutorial will teach you how to read and write from a file. This requires another standard C++ library called fstream, which defines three new data types −
 > 
 
-[Untitled](https://www.notion.so/45553bf3866c4487b974434f34259180)
+![image](https://user-images.githubusercontent.com/81976330/135795452-1f594adf-3a70-48b5-a7aa-de4d95952558.png)
+
 
 > To perform file processing in C++, header files <iostream> and <fstream> must be included in your C++ source file.
 > 
@@ -319,7 +342,8 @@ void open(const char *filename, ios::openmode mode);
 > Here, the first argument specifies the name and location of the file to be opened and the second argument of the open() member function defines the mode in which the file should be opened.
 > 
 
-[Untitled](https://www.notion.so/2b79bc32a4cf4c8891786b246fcd247e)
+![image](https://user-images.githubusercontent.com/81976330/135795513-9cc91df2-daa2-422f-b7cc-85db3e860f04.png)
+
 
 > You can combine two or more of these values by ORing them together. For example if you want to open a file in write mode and want to truncate it in case that already exists, following will be the syntax −
 > 
@@ -364,7 +388,7 @@ More resources on: *[https://www.tutorialspoint.com/cplusplus/cpp_files_streams.
 **SOURCE CODE:**
 
 Through this project, we can learn a lot about input/output streams and the file management system of C++. Our program collects student details like name, roll number, marks in each subject, and calculates their grade. This is a simple console app. Note that we focus only on the correct inputs in this project, and you can enhance it to handle wrong inputs. Here is the source code:
-
+```
 #include<iostream>
 #include<fstream>
 #include<iomanip>
@@ -604,3 +628,4 @@ cout<<"\n\n\tRecord Deleted ..";
 cin.ignore();
 cin.get();
 }
+  ```
