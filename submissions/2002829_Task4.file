@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int sumofNnum(int n)
+{
+    int sum=0;
+    sum=n*(n+1)/2;
+    return sum;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    int ret=sumofNnum(n);
+    cout<<"Sum = "<<ret;
+    return 0;
+}
