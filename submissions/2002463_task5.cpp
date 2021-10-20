@@ -1,36 +1,36 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 /*  class to return student data including name, class, roll no & email  */
 
 class StdData{
-    private:
-    string name;
-    char email[40], aclass[10];
+private:
+    string name, aclass, email;
     int rollno;
 
-    public:
+public:
 
     void input_data(){
+        cout << "Enter student Roll no (number): ";
+        cin >> rollno;
         cout << "Enter student Name: ";
         getline(cin, name);
         getline(cin, name);
         cout << "Enter student Class: ";
-        cin >> aclass;
-        cout << "Enter student Roll no (number): ";
-        cin >> rollno;
+        getline(cin, aclass);
         cout << "Enter student Email ID: ";
-        cin >> email;
+        getline(cin, email);
         cout << endl;
     }
     void print_data(){
-        cout << "Name: " << name << "\t\tClass: " << aclass << "\nRoll no.: " << rollno << "\t\tEmail ID: " << email;
+        cout << "Roll no.: " << rollno << "\nName: " << name << "\nClass: " << aclass << "\nEmail ID: " << email;
     }
 };
 
 int main() {
     int i, n;
-    cout << "Enter number of students: "; 
+    cout << "Enter total number of students: "; 
     cin >> n;
     cout << endl;
 
