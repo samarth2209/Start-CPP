@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Memory sizes of some data types in C++:"<<endl;
+
+    cout<<"\n";
+    cout<<"Memory size of char: "<< sizeof(char)<<" byte/bytes"<<endl;
+    cout<<"Memory size of int: "<< sizeof(int)<<" byte/bytes"<<endl;
+    cout<<"Memory size of long long int: "<< sizeof(long long int)<<" byte/bytes"<<endl;
+    cout<<"Memory size of short int: "<< sizeof(short int)<<" byte/bytes"<<endl;
+    cout<<"Memory size of signed short int: "<< sizeof(signed short int)<<" byte/bytes"<<endl;
+
+    return 0;
+}
